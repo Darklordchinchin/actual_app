@@ -33,6 +33,7 @@
         app:layout_constraintVertical_bias="0.671" />
 
     <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/Quest_List"
         android:layout_width="417dp"
         android:layout_height="545dp"
