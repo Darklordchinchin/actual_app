@@ -55,7 +55,7 @@ public class rewards extends AppCompatActivity {
 
 
         reward_gold.gold_value = findViewById(R.id.gold_value);
-        reward_gold.gold_value.setText(String.valueOf(MainActivity.gold.gold_amount));
+        reward_gold.gold_value.setText(String.valueOf(MainActivity.gold.gold_amount));  //Display the gold value from the main activity
 
 
         menu_button.setOnClickListener(new View.OnClickListener() { //Setup the menu button
